@@ -2,7 +2,7 @@ set -eu
 
 export PYTHONUNBUFFERED=true
 
-VIRTUALENV=.data/venv
+VIRTUALENV=.data/myenv
 
 if [ ! -d $VIRTUALENV ]; then
   python3 -m venv $VIRTUALENV
